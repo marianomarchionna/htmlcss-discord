@@ -145,6 +145,10 @@ nav img {
 .col img {
     width: 100%;
 }
+
+/* .gray{ 
+    background-color:  lightgray;
+}*/
 /* fine classi comuni ai paragrafi */
 /* ultimo paragrafo */
 .last-text h2{
@@ -192,3 +196,91 @@ nav img {
     color: white;
 }
 /* fine ultimo paragrafo */
+/*footer*/
+footer {
+    background-color: #24272A;
+}
+
+footer h3,
+footer h4 {
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+footer ul li {
+    color: white;
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.sector-left {
+    width: calc(100% / 6 * 2);
+    float: left;
+}
+
+.sector-right {
+    width: calc(100% / 6 * 4);
+    float: left;
+}
+
+.sector-right div {
+    display: inline-block;
+    float: left;
+    width: calc(100% / 4);
+}
+
+.footer-top {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.lingua {
+    background-color: #24272A;
+    border: none;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .fab {
+    color: white;
+    padding-right: 15px;
+}
+
+.sector-left img{
+    float: left;
+    height: 15px;
+    width: 20px;
+    border-radius: 3px;
+}
+
+.footer-bottom {
+    position: relative;
+    width: 100%;
+    line-height: 100px;
+    height: 100px;
+    padding: 20px 0px;
+}
+
+.footer-logo img {
+    vertical-align: middle;
+}
+
+.footer-logo {
+    width: 50%;
+    display: inline-block;
+}
+#footer-botton {
+    width: 20%;
+    text-align: right;
+    float: right;
+}
+#footer-botton  a {
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+/* fine footer  */
