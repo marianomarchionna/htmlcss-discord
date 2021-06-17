@@ -249,10 +249,14 @@ footer .fab {
 }
 
 .sector-left img{
-    float: left;
     height: 15px;
     width: 20px;
     border-radius: 3px;
+    text-align: middle;
+}
+
+form{
+    display: inline-block;
 }
 
 .footer-bottom {
