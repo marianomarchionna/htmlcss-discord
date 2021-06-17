@@ -13,7 +13,7 @@ body {
 
 /* header */
 header {
-    background-color: blue;
+    background-color: #255EE9;
     height: 70px;
     line-height: 70px;
 }
@@ -65,3 +65,52 @@ nav img {
     color: black;
 }
 /* fine header */
+/* prima sezione */
+
+.banner{
+    position: relative;
+    height: 450px;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text{
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner-text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#download{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+#open{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+/* fine sezione */
