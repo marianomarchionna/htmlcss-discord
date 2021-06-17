@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* common */
 body {
     font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 80px;
 }
 
 .clearfix{
@@ -14,61 +19,47 @@ body {
     display: table;
     clear: both;
 }
-
-.container {
-    position: relative;
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
-    margin-top: 70px;
-}
 /* fine common */
 /* header */
 header {
     background-color: #255EE9;
     height: 70px;
     line-height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
-
 nav {
     margin: 0 auto;
     width: 70%;
 }
-
 .logo {
     float: left;
     width: 20%;
 }
-
 nav .menu {
     width: 60%;
     text-align: center;
 }
-
 nav .menu a {
     text-decoration: none;
     padding: 0 10px;
     color: white
 }
-
 nav .menu a:hover {
     text-decoration: underline;
 }
-
 nav div {
     display: inline-block;
 }
-
 nav img {
     vertical-align: middle;
 }
-
 #login {
     width: 20%;
     text-align: right;
     float: right;
 }
-
 #login a {
     background-color: white;
     border-radius: 20px;
@@ -84,13 +75,11 @@ nav img {
     color: white;
     border-radius: 10px;
 }
-
 .banner img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .banner-text{
     position: absolute;
     right: 25%;
@@ -104,7 +93,6 @@ nav img {
     font-size: 50px;
     margin-bottom: 20px;
 }
-
 #download{
     margin-top: 20px;
     display: inline-block;
@@ -114,7 +102,6 @@ nav img {
     padding: 10px 20px;
     color: black;
 }
-
 #open{
     margin-top: 20px;
     display: inline-block;
@@ -125,7 +112,7 @@ nav img {
     color: white;
 }
 /* fine prima sezione */
-/* seconda sezione */
+/* classi comuni ai paragrafi  */
 .right {
     float: right;
 }
@@ -149,7 +136,59 @@ nav img {
     text-align: left;
 }
 
+.col p {
+    padding: 10px 0px;
+    font-size: 20px;
+    text-align: left;
+}
+
 .col img {
     width: 100%;
 }
-/* fine seconda sezione */
+/* fine classi comuni ai paragrafi */
+/* ultimo paragrafo */
+.last-text h2{
+    padding: 30px 0px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: left; 
+}
+
+.last-text p{
+    padding: 10px 0px;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.stars{
+    position: relative;
+    height: 150px;
+    text-align: center;
+}
+
+.stars img{
+    width: 40%;
+    object-fit: cover;
+}
+
+.stars-text{
+    position: absolute;
+    font-size: 18px;
+    left: 30%;
+}
+
+.stars-text h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#download2{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+/* fine ultimo paragrafo */
