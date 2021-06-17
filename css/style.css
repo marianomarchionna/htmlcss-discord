@@ -1,11 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* common */
-
-body{
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+body {
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
 }
+/* fine common */
+
+
+/* header */
+header {
+    background-color: blue;
+    height: 70px;
+    line-height: 70px;
+}
+
+nav {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+nav .menu {
+    width: 60%;
+    text-align: center;
+}
+
+nav .menu a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+nav div {
+    display: inline-block;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+#login {
+    width: 20%;
+    text-align: right;
+    float: right;
+}
+
+#login a {
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+/* fine header */
